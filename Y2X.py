@@ -45,6 +45,4 @@ with tf.Session() as sess:
     plt.plot(plotData['batchsize'],plotData['loss'])
     plt.show()
     #使用模型
-    print('x=0.2,z=',sess.run(z,feed_dict={X:5}))
-    print('x=0.2,z=',sess.run(z,feed_dict={X:5}))
-    print('x=0.2,z=',sess.run(z,feed_dict={X:5}))
+    
