@@ -45,4 +45,4 @@ with tf.Session() as sess:
     plt.plot(plotData['batchsize'],plotData['loss'])
     plt.show()
     #使用模型
-
+    print('hello world')
