@@ -1,4 +1,4 @@
 #忽略venv文件夹
-/venv/*
 *.xml
 .idea/*
+venv/*
